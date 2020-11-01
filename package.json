@@ -1,0 +1,36 @@
+{
+  "name": "consume-xalapa",
+  "version": "1.0.0",
+  "description": "Consume Xalapa",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseCrz/consume-xalapa.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "React",
+    "JS",
+    "Next",
+    "ES6",
+    "Xalapa"
+  ],
+  "author": "José Cuevas <josecueram@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoseCrz/consume-xalapa/issues"
+  },
+  "homepage": "https://github.com/JoseCrz/consume-xalapa#readme",
+  "dependencies": {
+    "next": "^10.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "standard": "^16.0.1",
+    "styled-components": "^5.2.1"
+  }
+}
