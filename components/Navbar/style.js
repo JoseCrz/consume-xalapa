@@ -8,6 +8,7 @@ export const Header = styled.header`
 
   ${phone} {
     font-size: 12px;
+    justify-content: center;
   }
 `;
 export const Nav = styled.nav`
