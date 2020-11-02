@@ -25,13 +25,13 @@ const Home = () => {
   return (
     <Layout>
       <Hero />
-      <Section title="Encuentra tu opción ideal">
+      <Section title="Encuentra tu opción ideal" id="restaurants">
         <ListOfRestoCards restaurants={restaurants} />
       </Section>
-      <Section title="Encuentra tu local">
+      <Section title="Encuentra tu local" id="map">
         <Map />
       </Section>
-      <Section title="Unete a">
+      <Section title="Unete a" id="contact">
         <LogoText size="l" />
         <ContactForm />
       </Section>
