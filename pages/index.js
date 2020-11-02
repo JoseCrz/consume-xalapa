@@ -5,6 +5,7 @@ import { Hero } from "../components/Hero";
 import { Section } from "../components/Section";
 import { ListOfRestoCards } from "../components/ListOfRestoCards";
 import { Map } from "../components/Map";
+import { LogoText } from "../components/LogoText";
 
 const Home = () => {
   const [restaurants, setRestaurants] = useState([]);
@@ -28,6 +29,9 @@ const Home = () => {
       </Section>
       <Section title="Encuentra tu local">
         <Map />
+      </Section>
+      <Section title="Unete a">
+        <LogoText size="l" />
       </Section>
     </Layout>
   );
