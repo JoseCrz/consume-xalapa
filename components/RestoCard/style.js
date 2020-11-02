@@ -91,6 +91,7 @@ export const Actions = styled(Div)`
 `;
 
 export const Cta = styled.a`
+  text-decoration: none;
   text-transform: uppercase;
   background: ${({ isHollow }) =>
     isHollow ? "transparent" : "var(--primary)"};
