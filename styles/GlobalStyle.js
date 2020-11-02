@@ -143,16 +143,6 @@ export const GlobalStyle = createGlobalStyle`
       resize: vertical;
     }
 
-    ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-
-    li {
-      display: inline-block;
-    }
-
     .chromeframe {
       margin: 0.2em 0;
       background: #ccc;
