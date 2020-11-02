@@ -7,8 +7,10 @@ import { Main } from "./style";
 export const Layout = ({ children }) => {
   return (
     <>
-      <Navbar />
-      <Main>{children}</Main>
+      <Main>
+        <Navbar />
+        {children}
+      </Main>
     </>
   );
 };
