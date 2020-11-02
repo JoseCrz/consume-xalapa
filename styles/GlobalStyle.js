@@ -3,14 +3,14 @@ import { createGlobalStyle, css } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
   ${({ theme }) => css`
     :root {
-      --body: #e5e5e5;
-      --element: #f2f7f2;
-      --primary: #c05746;
-      --accent: #43aa8b;
-      --text: #2f323a;
-      --text-cta: #f2f7f2;
-      --title-font: "Arial", sans-serif;
-      --body-font: "Arial", sans-serif;
+      --body: ${theme.colors.body};
+      --element: ${theme.colors.element};
+      --primary: ${theme.colors.primary};
+      --accent: ${theme.colors.accent};
+      --text: ${theme.colors.text};
+      --text-cta: ${theme.colors.textCta};
+      --title-font: ${theme.fonts.title};
+      --body-font: ${theme.fonts.body};
     }
 
     * {
