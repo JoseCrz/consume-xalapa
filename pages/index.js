@@ -4,6 +4,7 @@ import { Layout } from "../components/Layout";
 import { Hero } from "../components/Hero";
 import { Section } from "../components/Section";
 import { ListOfRestoCards } from "../components/ListOfRestoCards";
+import { Map } from "../components/Map";
 
 const Home = () => {
   const [restaurants, setRestaurants] = useState([]);
@@ -24,6 +25,9 @@ const Home = () => {
       <Hero />
       <Section title="Encuentra tu opción ideal">
         <ListOfRestoCards restaurants={restaurants} />
+      </Section>
+      <Section title="Encuentra tu local">
+        <Map />
       </Section>
     </Layout>
   );
