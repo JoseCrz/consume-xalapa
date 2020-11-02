@@ -36,6 +36,11 @@ export const GlobalStyle = createGlobalStyle`
       color: var(--text);
     }
 
+    a {
+      color: var(--text);
+      cursor: pointer;
+    }
+
     button,
     input,
     select,

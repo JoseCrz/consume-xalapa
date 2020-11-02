@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-import { Header, Nav, Ul, Li } from "./style";
+import { Header, Nav, Ul, Li, A } from "./style";
 
 export const Navbar = () => {
   return (
@@ -10,32 +10,32 @@ export const Navbar = () => {
         <Ul>
           <Li>
             <Link href="">
-              <a>Inicio</a>
+              <A>Inicio</A>
             </Link>
           </Li>
           <Li>
             <Link href="">
-              <a>Negocios</a>
+              <A>Negocios</A>
             </Link>
           </Li>
           <Li>
             <Link href="">
-              <a>Mapa</a>
+              <A>Mapa</A>
             </Link>
           </Li>
           <Li>
             <Link href="">
-              <a>Promociones</a>
+              <A>Promociones</A>
             </Link>
           </Li>
           <Li>
             <Link href="">
-              <a>Contacto</a>
+              <A>Contacto</A>
             </Link>
           </Li>
           <Li>
             <Link href="">
-              <a>Nosotros</a>
+              <A>Nosotros</A>
             </Link>
           </Li>
         </Ul>

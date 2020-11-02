@@ -18,3 +18,10 @@ export const Li = styled.li`
   margin-left: 20px;
   font-weight: bold;
 `;
+
+export const A = styled.a`
+  text-decoration: none;
+  &:hover {
+    color: var(--primary);
+  }
+`;
