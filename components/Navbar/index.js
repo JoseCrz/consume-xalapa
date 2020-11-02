@@ -1,15 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 
 import { LogoText } from "../LogoText";
+import { BurgerButton } from "../BurgerButton";
 
 import { Header, Nav, Ul, Li, A } from "./style";
 
 export const Navbar = () => {
+  const [isActive, setIsActive] = useState(false);
+
   return (
     <Header>
       <LogoText />
-      <Nav>
+      <Nav isActive={isActive}>
         <Ul>
           <Li>
             <Link href="">
@@ -43,6 +46,7 @@ export const Navbar = () => {
           </Li>
         </Ul>
       </Nav>
+      <BurgerButton onClick={() => setIsActive(!isActive)} />
     </Header>
   );
 };
