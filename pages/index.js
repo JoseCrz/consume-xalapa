@@ -6,6 +6,7 @@ import { Section } from "../components/Section";
 import { ListOfRestoCards } from "../components/ListOfRestoCards";
 import { Map } from "../components/Map";
 import { LogoText } from "../components/LogoText";
+import { ContactForm } from "../components/ContactForm";
 
 const Home = () => {
   const [restaurants, setRestaurants] = useState([]);
@@ -32,6 +33,7 @@ const Home = () => {
       </Section>
       <Section title="Unete a">
         <LogoText size="l" />
+        <ContactForm />
       </Section>
     </Layout>
   );
