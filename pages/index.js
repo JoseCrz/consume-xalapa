@@ -1,12 +1,11 @@
 import React from "react";
 import { Layout } from "../components/Layout";
+import { Hero } from "../components/Hero";
 
 const Home = () => {
   return (
     <Layout>
-      <h1>Consume Xalapa</h1>
-      <h3>Better built this time.</h3>
-      <small>Hopefully...</small>
+      <Hero />
     </Layout>
   );
 };
