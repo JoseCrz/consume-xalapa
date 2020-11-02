@@ -1,11 +1,14 @@
 import React from "react";
 import Link from "next/link";
 
+import { LogoText } from "../LogoText";
+
 import { Header, Nav, Ul, Li, A } from "./style";
 
 export const Navbar = () => {
   return (
     <Header>
+      <LogoText />
       <Nav>
         <Ul>
           <Li>
